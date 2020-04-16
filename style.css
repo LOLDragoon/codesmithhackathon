@@ -1,0 +1,27 @@
+.popup {
+    display:flex;
+    flex-flow: column;
+    position: absolute;
+    border: 1px solid;
+    z-index: 10;
+    background: black;
+}
+
+.popup img{
+    height: 33vh;
+}
+.popup .features {
+}
+.popup button {
+    border: 2px solid lime;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 5px;
+    background-color: transparent;
+}
+.popup button:active {
+    border-color: magenta;
+    color: magenta;
+}
