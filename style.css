@@ -6,11 +6,8 @@
     z-index: 10;
     background: black;
 }
-
 .popup img{
     height: 33vh;
-}
-.popup .features {
 }
 .popup button {
     border: 2px solid lime;
